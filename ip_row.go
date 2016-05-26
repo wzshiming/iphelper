@@ -15,9 +15,9 @@ type IpRowCn struct {
 	Operator string
 }
 
-func (this *IpRowCn) String() string {
-	return this.Country + this.Province + this.City + this.Zone + this.Location + this.Operator
-}
+//func (this *IpRowCn) String() string {
+//	return this.Country + this.Province + this.City + this.Zone + this.Location + this.Operator
+//}
 
 // 获取ip段信息
 type IpRow struct {
